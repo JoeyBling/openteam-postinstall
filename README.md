@@ -42,11 +42,21 @@ yarn add openteam-postinstall
 ### 引入该插件
 
 > 在`package.json`中添加：
-
 ```json
 {
   "scripts": {
     "postinstall": "node -e \"try{require('openteam-postinstall')}catch(e){}\" || exit 0"
+  }
+}
+```
+
+---
+
+> 简洁写法
+```json
+{
+  "scripts": {
+    "postinstall": "openteam-postinstall || exit 0"
   }
 }
 ```
