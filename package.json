@@ -1,6 +1,6 @@
 {
   "name": "openteam-postinstall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight npm postinstall message and donate etc.",
   "main": "index.js",
   "bin": "postinstall.js",
