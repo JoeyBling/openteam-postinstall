@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Lightweight npm postinstall message and donate etc.",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": "postinstall.js",
   "publishConfig": {
     "access": "public"
   },
